@@ -1,0 +1,15 @@
+
+body{font-family: Arial, Helvetica, sans-serif; margin:0; color:#222;}
+header{background:#0b63b6; color:white; padding:14px 20px; display:flex; align-items:center; justify-content:space-between;}
+.logo img{height:44px;}
+nav a{color:white; margin-left:16px; text-decoration:none; font-weight:600;}
+.hero{background:linear-gradient(90deg, rgba(11,99,182,0.95), rgba(7,82,158,0.85)); color:white; padding:40px 20px; text-align:center;}
+.container{max-width:1000px; margin:24px auto; padding:0 16px;}
+h1{margin:0 0 10px;}
+h2{color:#0b63b6; margin-top:0;}
+.cards{display:flex; flex-wrap:wrap; gap:12px; margin-top:12px;}
+.card{flex:1 1 220px; border:1px solid #e6e6e6; padding:12px; border-radius:6px; background:white;}
+footer{background:#f4f4f4; padding:18px 16px; text-align:center; font-size:14px; color:#444;}
+.btn{display:inline-block; background:#ffd166; color:#07304b; padding:10px 14px; border-radius:6px; text-decoration:none; font-weight:700; margin:6px 4px;}
+.contact-strip{background:#eef6ff; padding:12px; border-radius:6px; display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;}
+@media(max-width:700px){ .cards{flex-direction:column;} header{flex-direction:column; align-items:flex-start;} nav{margin-top:8px;} .contact-strip{flex-direction:column; align-items:flex-start;} }
